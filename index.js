@@ -42,7 +42,7 @@ app.get("/audio", async (req, res) => {
         const errorJson = {
             error: error.message,
         };
-        res.status(500).json(errorJson);
+        res.status(200).json(errorJson);
     }
 });
 
